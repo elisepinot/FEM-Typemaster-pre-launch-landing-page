@@ -1,0 +1,26 @@
+.btn{
+    width: 175px;
+    height: 58px;
+    border-radius: 8px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    &--1{
+        background: $tertiary-color;
+        &:hover{
+            background-color: $title-color;
+            color: white;
+            cursor: pointer;
+        }
+    }
+    &--2{
+        
+        background-color: $primary-color;
+        color: white;
+        &:hover{
+            background-color: #FF9B62;
+            cursor: pointer;
+        }
+        
+    }
+}
